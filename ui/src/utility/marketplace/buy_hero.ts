@@ -1,5 +1,4 @@
 import { Transaction } from "@mysten/sui/transactions";
-//import { listHero } from "./list_hero";
 
 export const buyHero = (packageId: string, listHeroId: string, priceInSui: string) => {
   const tx = new Transaction();
